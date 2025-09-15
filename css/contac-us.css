@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: end; /* Center horizontally */
+    a{
+        padding: 10px 15px;
+        color: white;
+        text-decoration: none;
+    }
+}
+nav a:hover {
+    background-color: #555;
+}
+nav a.active {
+    background-color: #333;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(/images/children-smile.webp);
+    background-size: cover;
+    background-position: center;
+    .team-speech{
+        background-color: rgba(255, 255, 255, 0.8);
+        h1{
+            color: black;
+            font-family: sans-serif;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 0;
+        }
+        p{
+            color: black;
+            font-family: sans-serif;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+    }
+    .contacts{
+        margin: 20px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        h2 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 5px 0;
+        }
+    }
+}
+#donate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    .donate-info {
+        background-color: rgb(197, 175, 175);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 15px;
+        h2 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 5px 0;
+        }
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            width: 300px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    }
+}
+.get-involved {
+    background-color: #f4f4f4;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    .volunteers {
+        h2 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 5px 0;
+        }
+        .team-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            img {
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 10px;
+                margin: 5px;
+            }
+        }
+    }
+}footer {
+    background-color: #333;
+    text-align: center;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+     p .bottom {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        font-size: 14px;
+    }
+}
